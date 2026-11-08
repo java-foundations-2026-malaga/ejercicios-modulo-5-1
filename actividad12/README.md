@@ -2,7 +2,7 @@
 
 ## Control de stock en carrito
 
-Muestra disponibilidad, plural y total.
+Si outOfStock es true, muestra `Sin stock`. Si no, muestra la cantidad y el nombre del artículo (en plural, añadiendo una `s`, si quantity es distinto de 1) y el total (quantity * price).
 
 ## Objetivo
 
@@ -29,4 +29,5 @@ Total: 7.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

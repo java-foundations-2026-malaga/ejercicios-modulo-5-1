@@ -2,7 +2,7 @@
 
 ## Comprueba si una edad permite conducir
 
-Calcula drivingUnderAge con una expresión booleana.
+Calcula drivingUnderAge (true si age es menor que 18) con una expresión booleana.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ drivingUnderAge: true
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

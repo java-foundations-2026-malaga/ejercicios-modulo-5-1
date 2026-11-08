@@ -2,7 +2,7 @@
 
 ## Comparador de dos números
 
-Indica el mayor o si ambos son iguales.
+Indica el mayor (`X es mayor que Y`) o, si ambos son iguales, muestra `Los dos números son iguales`.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Indica el mayor o si ambos son iguales.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
