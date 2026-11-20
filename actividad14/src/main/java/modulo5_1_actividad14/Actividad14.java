@@ -5,5 +5,15 @@ public class Actividad14 {
         int first = 12;
         int second = 7;
         // TODO: compara ambos valores.
+        //Indica el mayor (X es mayor que Y) o, si ambos son iguales, muestra Los dos números son iguales.
+        if (first > second) {
+        	System.out.println(first+" es mayor que "+second);
+        }else {
+        	if (first < second) {
+        		System.out.println(first+" es menor que "+second);
+        	} else {
+        		System.out.println("Los dos números son iguales");
+        	}
+        }
     }
 }

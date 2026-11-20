@@ -4,5 +4,8 @@ public class Actividad15 {
     public static void main(String[] args) {
         String name = "Moe";
         // TODO: compara el contenido de name.
+        //Compara Moe sin utilizar ==.
+        if(name.equalsIgnoreCase("Moe")) System.out.println("You are the king of rock and roll");
+        
     }
 }
