@@ -6,6 +6,14 @@ public class Actividad12 {
         double price = 3.5;
         String itemName = "cuaderno";
         boolean outOfStock = false;
-        // TODO: muestra el estado del carrito.
+
+        if (outOfStock) {
+            System.out.println("Sin stock");
+        } else {
+            String plural = quantity != 1 ? "s" : "";
+
+            System.out.println(quantity + " " + itemName + plural);
+            System.out.println("Total: " + (quantity * price));
+        }
     }
 }
